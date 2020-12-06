@@ -17,6 +17,7 @@ As part this project, EMPLOYEE MANAGEMENT system is created such that a register
 #### View (Frontend):
 
 - React
+- Redux / Thunk
 - PrimeReact (UI Library)
 
 ### To Run:
