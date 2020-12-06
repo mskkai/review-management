@@ -1,0 +1,74 @@
+.header {
+  background: $color-light-varient-2;
+  height: 5rem;
+  color: $blue-mid;
+  border-bottom: 1px solid $color-light-varient-1;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header-items__title {
+  font-family: $font-app;
+  font-size: $font-size-large;
+  text-decoration: none;
+  padding-top: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.header-items__title-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.8rem;
+  font-size: $font-size-xlarge;
+  color: $yellow-mid;
+  bottom: 0.2rem;
+  position: relative;
+}
+
+.header-items__title-button {
+  font-size: $font-size-medium !important;
+  margin-bottom: 1rem;
+  font-weight: 500 !important;
+}
+
+.header-items__title-button-icon {
+  font-weight: 900 !important;
+}
+
+.header-items__user-details {
+  width: 12%;
+}
+
+.header-items__user-image {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  position: relative;
+  top: 0.3rem;
+  right: 1rem;
+}
+
+.header-items__user-name {
+  display: block;
+  font-size: $font-size-large;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+  text-align: center;
+  color: $blue-lightish;
+  font-weight: 600;
+  height: 4rem;
+  padding: 0.8rem 2rem 0.5rem 2rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  img {
+    @extend .header-items__user-image;
+  }
+}

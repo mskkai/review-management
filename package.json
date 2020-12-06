@@ -1,0 +1,20 @@
+{
+  "name": "review-management",
+  "version": "1.0.0",
+  "description": "An application for employee review management process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-core": "npm start --prefix core",
+    "start-view": "npm start --prefix view",
+    "install-core": "npm install --prefix core",
+    "install-view": "npm install --prefix view",
+    "dev-install": "concurrently \"npm run install-core\" \"npm run install-view\"",
+    "dev-start": "concurrently \"npm run start-core\" \"npm run start-view\""
+  },
+  "author": "sasikumar.manickam",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

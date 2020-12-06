@@ -1,0 +1,27 @@
+.report__nav-header {
+  margin: 0.5rem;
+}
+
+.report__button-link {
+  text-decoration: none;
+}
+
+.report-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-header__multi-select {
+  width: 20rem;
+  font-size: $font-size-small !important;
+  text-transform: uppercase;
+  padding: 0.1rem;
+}
+
+.report-header__button {
+  font-size: $font-size-lighter !important;
+}
+
+.report-body__dialog-icon {
+  font-size: 2rem;
+}

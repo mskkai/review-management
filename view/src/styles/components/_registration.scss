@@ -1,0 +1,50 @@
+.registration-view {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.registration__tab-view {
+  @extend .registration-view;
+  padding: 2rem;
+  font-size: $font-size-lighter !important;
+
+  i,
+  span {
+    vertical-align: middle;
+    font-size: $font-size-lighter !important;
+  }
+
+  span {
+    margin: 0 0.5rem;
+  }
+
+  .p-button {
+    margin-right: 0.25rem;
+  }
+
+  .p-tabview p {
+    line-height: 1.5;
+    margin: 0;
+  }
+}
+
+.registration__progress-bar {
+  @extend .registration-view;
+}
+
+.registration__button {
+  height: 5rem;
+  align-self: center;
+  font-weight: bold !important;
+  width: max-content;
+}
+
+.registration__button-right {
+  @extend .registration__button;
+  justify-self: end;
+}
+
+.registration__button-left {
+  @extend .registration__button;
+  justify-self: start;
+}

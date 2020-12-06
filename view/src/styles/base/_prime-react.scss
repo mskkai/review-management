@@ -1,0 +1,102 @@
+//Field Set Container
+.custom-fieldset {
+  .p-fieldset {
+    background: $color-light-varient-2 !important;
+  }
+  .p-fieldset-legend {
+    font-size: $font-size-large;
+    background: $yellow-lighter !important;
+    color: $black-mid !important;
+    font-family: $font-header !important;
+    letter-spacing: 0.2rem;
+  }
+}
+
+//Toast
+.p-toast {
+  font-size: $font-size-lighter !important;
+  width: 40rem !important;
+}
+
+.p-toast-bottom-center {
+  margin-left: -15em !important;
+}
+
+//Datatable
+.p-datatable {
+  font-size: $font-size-lighter !important;
+}
+
+.p-fileupload-choose {
+  font-size: $font-size-lighter !important;
+}
+
+.p-component {
+  font-family: $font-special !important;
+}
+
+.datatable-responsive {
+  .p-datatable-scrollable-body {
+    min-height: 250px;
+  }
+  .p-datatable .p-datatable-tbody > tr > td .p-column-title {
+    display: none;
+  }
+
+  @media screen and (max-width: 40em) {
+    .p-datatable {
+      &.p-datatable-responsive {
+        .p-datatable-thead > tr > th,
+        .p-datatable-tfoot > tr > td {
+          display: none !important;
+        }
+
+        .p-datatable-tbody > tr > td {
+          text-align: left;
+          display: block;
+          width: 100%;
+          float: left;
+          clear: left;
+          border: 0 none;
+
+          .p-column-title {
+            padding: 0.4rem;
+            min-width: 30%;
+            display: inline-block;
+            margin: -0.4em 1em -0.4em -0.4rem;
+            font-weight: bold;
+          }
+
+          &:last-child {
+            border-bottom: 1px solid var(--surface-d);
+          }
+        }
+      }
+    }
+  }
+}
+
+//Steps
+.p-steps .p-steps-item:before {
+  border-top: 5px solid $green-blue-light !important;
+  margin-top: -5px !important;
+}
+
+.p-steps-number {
+  height: 3rem !important;
+  min-width: 3rem !important;
+  font-size: 1.5rem !important;
+  background: $green-blue-light !important;
+  font-weight: bolder;
+}
+
+//carousel
+.p-carousel {
+  text-align: center !important;
+  font-size: $font-size-large !important;
+}
+
+//sidebar
+.p-sidebar-right {
+  width: calc(60vw - 6rem) !important;
+}

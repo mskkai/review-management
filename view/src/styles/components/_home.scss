@@ -1,0 +1,43 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 12rem);
+}
+
+.home-container__title {
+  font-style: italic;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.home__carousel {
+  .home__carousal-item-header {
+    color: $blue-dark;
+    font-family: "Dancing Script" !important;
+  }
+
+  .home__carousal-item {
+    .home__carousal-item-content {
+      border: 1px solid var(--surface-d);
+      border-radius: 3px;
+      margin: 0.3rem;
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    .home__carousal-item-image {
+      font-size: 10rem;
+    }
+
+    .home__carousal-item-button-text {
+      font-size: $font-size-large !important;
+    }
+    .home__carousal-item-text {
+      font-size: $font-size-medium !important;
+    }
+    .home__carousal-item-link {
+      text-decoration: none;
+    }
+  }
+}

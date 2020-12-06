@@ -1,0 +1,17 @@
+//application css files
+@import "./base/settings";
+@import "./base/base";
+@import "./base/visibility";
+@import "./base/container";
+@import "./base/prime-react";
+@import "./base/form";
+@import "./base/visibility";
+
+//components
+//@import "./components/navigation";
+@import "./components/login";
+@import "./components/header";
+@import "./components/home";
+@import "./components/registration";
+@import "./components/loader";
+@import "./components/report";

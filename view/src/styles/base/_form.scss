@@ -1,0 +1,21 @@
+.form-field {
+  font-size: $font-size-lighter;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+
+  .p-inputtext,
+  select {
+    width: 20vw;
+    height: 5vh;
+    font-size: $font-size-lighter;
+    letter-spacing: 0.05rem;
+  }
+
+  .form-field--help {
+    text-transform: capitalize;
+  }
+}
+
+.p-button-label {
+  text-transform: uppercase;
+}
